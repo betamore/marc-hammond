@@ -1,3 +1,7 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /* basic reset */
 
 html, body, h1, h2 {
@@ -6,7 +10,11 @@ html, body, h1, h2 {
 }
 
 body {
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5 'Open Sans', sans-serif;
+}
+
+section {
+  display: flex;
 }
 
 header {
@@ -26,4 +34,14 @@ header h1 {
   height: 100%;
   min-height: 50em;
   width: 50%;
+}
+
+#right {
+  padding: 80px;
+}
+
+#right h1 {
+  color: #252525;
+  font-size: 44px;
+  font-weight: 300;
 }
