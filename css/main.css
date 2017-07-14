@@ -4,13 +4,17 @@
 
 /* basic reset */
 
-html, body, h1, h2 {
+html, body, h1, h2, ul {
   padding: 0;
   margin: 0;
 }
 
 body {
   font: normal 100%/1.5 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 section {
@@ -44,4 +48,49 @@ header h1 {
   color: #252525;
   font-size: 44px;
   font-weight: 300;
+}
+
+#right p {
+  max-width: 65%;
+}
+
+#right p img {
+  max-height: 32px;
+  margin-bottom: -7px;
+}
+
+#right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+#right li {
+  display: inline;
+}
+
+#right li a {
+  color: darkgray;
+}
+
+#right li a:hover {
+  color: #252525;
+}
+
+/* icons */
+
+.socicon-github:before {
+  content: "\e032";
+}
+
+.socicon-dribbble:before {
+  content: "\e021";
+}
+
+.socicon-instagram:before {
+  content: "\e044";
+}
+
+.socicon-mail:before {
+  content: "\e050";
 }
